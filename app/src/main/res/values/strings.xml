@@ -1,0 +1,139 @@
+<resources>
+    <string name="app_name">SMITE</string>
+    <string name="nombre1">Agni</string>
+    <string name="apodo1">Dios del Fuego</string>
+    <string name="nombre2">Anubis</string>
+    <string name="apodo2">Dios de los Muertos</string>
+    <string name="nombre3">Ares</string>
+    <string name="apodo3">Dios de la Guerra</string>
+    <string name="nombre4">Athena</string>
+    <string name="apodo4">Diosa de la Sabiduria</string>
+    <string name="nombre5">Bacchus</string>
+    <string name="apodo5">Dios del Vino</string>
+    <string name="nombre6">Fenrir</string>
+    <string name="apodo6">Dios de los Lobos</string>
+    <string name="nombre7">Hades</string>
+    <string name="apodo7">Rey del Inframundo</string>
+    <string name="nombre8">Poseidon</string>
+    <string name="apodo8">Dios de los Océanos</string>
+    <string name="nombre9">Ra</string>
+    <string name="apodo9">Dios del Sol</string>
+    <string name="nombre10">Skadi</string>
+    <string name="apodo10">Diosa del Invierno</string>
+
+    <string name="asesino">Asesino</string>
+    <string name="adc">Cazador</string>
+    <string name="mago">Mago</string>
+    <string name="supp">Support</string>
+    <string name="warr">Guerrero</string>
+
+    <string name="egip">Egipcio</string>
+    <string name="roma">Romano</string>
+    <string name="hind">Hindú</string>
+    <string name="nord">Nordico</string>
+    <string name="grieg">Griego</string>
+
+    <string name="fisic">Fisico</string>
+    <string name="magico">Magico</string>
+
+    <string name="range">Ranged</string>
+    <string name="melee">Melee</string>
+
+    <string name="url1">https://youtu.be/w_aGSGzkysU</string>
+    <string name="url2">https://www.youtube.com/watch?v=Ra5MpsYdp8w</string>
+    <string name="url3">https://youtu.be/xwWiU9H5L8A</string>
+    <string name="url4">https://youtu.be/VGmnS14KHmI</string>
+    <string name="url5">https://youtu.be/IsZHSlXR3gw</string>
+    <string name="url6">https://youtu.be/wqsf3ThdGRE</string>
+    <string name="url7">https://www.youtube.com/watch?v=F8qUoWjgvAo</string>
+    <string name="url8">https://youtu.be/Zb6QW_41hOE</string>
+    <string name="url9">https://youtu.be/ORLjTrVvxbM</string>
+    <string name="url10">https://youtu.be/DM0E5FtYYLI</string>
+
+    <string name="descripcionPasiva1">Golpear a un enemigo con un ataque básico proporciona 1 acumulación de combustión. Golpear a un dios enemigo proporciona 2. Con 4 acumulaciones, la próxima Ola de llama o Lluvia de fuego de Agni encenderá a todos los enemigos golpeados e infligirá daño cada 0,5 s durante 3 s.</string>
+    <string name="descripcionHabilidad1">Agni invoca una nube de vapores nocivos en la ubicación de su objetivo en el suelo, causando daño cada segundo. Disparar cualquiera de las habilidades de Agni hacia los vapores detona el gas, aturdiendo y dañando a todos los enemigos en el radio.</string>
+    <string name="descripcionHabilidad2">Agni invoca una ola de fuego frente a él que quema a todos los enemigos a su paso. Enciende vapores nocivos.</string>
+    <string name="descripcionHabilidad3">Agni abre un camino hacia adelante en una carrera rápida, dejando un rastro de llamas detrás de él. Cualquier enemigo que pase a través de las llamas se incendia y se quema para causar daño cada 0,5 s durante 2 s. Enciende vapores nocivos. Agni es inmune al retroceso mientras corre.</string>
+    <string name="descripcionHabilidad4">Cada 18 segundos, Agni obtiene un halo de llamas que puede usarse para invocar un meteorito gigante en su ubicación objetivo en tierra. Puede convocar 1 cada 0,8 segundos. Enciende vapores nocivos.</string>
+
+    <string name="descripcionPasiva2">Todas las habilidades de Anubis roban protección física y mágica del objetivo y aumentan su curación obtenida del robo de vida mágico. Estos efectos se acumulan en cada tic de las habilidades de Anubis. Dolor también le otorga a Anubis una reducción adicional del 30% en todas las duraciones de Control de masas.</string>
+    <string name="descripcionHabilidad1_2">Una plaga de langostas brota de la boca de Anubis, asfixiando a todos los enemigos en el área y causando daño cada 0,25 segundos durante 3 segundos. Anubis es inmune al retroceso mientras canaliza y se mueve al 50% de su velocidad.</string>
+    <string name="descripcionHabilidad2_2">Anubis dispara un proyectil de vendaje, momificando y aturdiendo a su objetivo.</string>
+    <string name="descripcionHabilidad3_2">Anubis pide ayuda desde el inframundo mientras unas manos penetran el suelo y arañan a sus enemigos, causando daño y ralentizando cada 0,5 s durante 2 s.</string>
+    <string name="descripcionHabilidad4_2">Anubis concentra toda su energía en una mirada penetrante, causando daño a todos los enemigos en el camino, cada 0,1 segundos durante 3 segundos.</string>
+
+    <string name="descripcionPasiva3">Cada elemento de aura completado que posee Ares le otorga 30 poderes mágicos adicionales. Además, Ares obtiene daño adicional de ataque básico por nivel.</string>
+    <string name="descripcionHabilidad1_3">Desde el escudo de Ares se extienden cadenas que dañan a todos los enemigos a su paso. Golpear a un dios los encadena a Ares, los paraliza, les impide habilidades de movimiento, les inflige el mismo daño cada segundo mientras los ralentiza en un 15 % y mejora a Ares. Mientras está encadenado, Ares puede disparar otra cadena gratis en 2 segundos. Los campamentos en la jungla reciben un +40 % de daño adicional.</string>
+    <string name="descripcionHabilidad2_3">Ares fortalece sus defensas y las de todos los aliados cercanos durante 6 s, otorgando daño de ataque básico, protecciones, HP5 y reduciendo la duración del control de masas. Por cada enemigo encadenado, las mejoras de protección aumentan.</string>
+    <string name="descripcionHabilidad3_3">Las llamas brotan del escudo de Ares, envolviendo a los enemigos en un cono frente a él, causando daño cada 0,5 s durante 4 s. Ares es inmune al retroceso mientras dure.</string>
+    <string name="descripcionHabilidad4_3">Ares lanza cadenas a todos los dioses enemigos en un área a su alrededor, obteniendo inmunidad al control de multitudes y mitigación de daños. Todos los enemigos golpeados por las cadenas son arrastrados hacia Ares después de 2,5 s, sufriendo daño y quedan aturdidos.</string>
+
+    <string name="descripcionPasiva4">Después de usar una habilidad, el siguiente ataque básico de Athena es a distancia, atraviesa y golpea a todos los enemigos, e inflige un 50% más de daño al primer enemigo golpeado. El daño de Reach activará efectos de objetos de ataque básico, pero no de habilidad.</string>
+    <string name="descripcionHabilidad1_4">Athena se enciende para correr. Mientras corre, Atenea atravesará súbditos, se detendrá y golpeará al primer dios enemigo que encuentre, causándole daño. Si golpea a un enemigo, Atenea gana una acumulación de Bloqueo (máximo 3), absorbiendo el siguiente ataque básico de cualquier dios que la golpee.</string>
+    <string name="descripcionHabilidad2_4">Atenea libera una onda de choque de poder desde su escudo, provocando a los dioses enemigos y disminuyendo su velocidad de ataque mientras los obliga a luchar o perseguirla.</string>
+    <string name="descripcionHabilidad3_4">Atenea convoca a un grupo de guerreros atenienses que hacen daño y ralentizan al llegar. Después de 2 segundos, atacan de nuevo, causando daño adicional y ralentización.</string>
+    <string name="descripcionHabilidad4_4">Atenea elige un único dios aliado en cualquier parte del mundo y se lanza al aire, aterrizando junto a ese dios 3,6 segundos después. Durante esos 3,6 segundos, tanto Atenea como el dios aliado obtienen Mitigación de daños, y el dios aliado también gana Velocidad de movimiento. Los enemigos cercanos cuando Athena aterriza reciben daño.</string>
+
+    <string name="descripcionPasiva5">A Bacchus le encanta la bebida y, a medida que bebe de su jarra, se emborracha más y obtiene mejoras cuando se emborracha y se aplasta. Baco también celebra cuando mata a un dios enemigo, dándole un 10% en su medidor.</string>
+    <string name="descripcionHabilidad1_5">Bacchus toma un trago de su jarra, lo cura y le otorga ventajas adicionales.</string>
+    <string name="descripcionHabilidad2_5">Baco salta en el aire y, no con tanta gracia, se estrella contra el suelo con el vientre primero, lanzando a todos los enemigos por el aire e infligiendo daño. Si está borracho, todos los enemigos también quedan ralentizados después de aterrizar.</string>
+    <string name="descripcionHabilidad3_5">Bacchus deja escapar un eructo desagradablemente fuerte, causando daño cada 0,5 segundos durante 2 segundos y reduciendo la curación del enemigo. Los Minions de carril reciben una pequeña cantidad de daño adicional. Si está borracho, los enemigos quedan aturdidos durante 1 s. Baco es inmune al retroceso mientras dure.</string>
+    <string name="descripcionHabilidad4_5">Baco estrella su jarra de vino en el suelo, intoxicando a todos los enemigos cercanos y causando daño. ¡Si es aplastado, Bacchus también obtiene una mejora de poder mágico debido a su enojo por el vino perdido!</string>
+
+    <string name="descripcionPasiva6">Fenrir gana eficiencia mientras ataca. Cada golpe de un ataque básico activa 1 runa, hasta un máximo. de 5. Unchained, Brutalize y Ragnarok obtienen beneficios adicionales cuando se usan al máximo de Runas y las Runas se consumen. Los dioses enemigos que mata Fenrir activarán completamente todas sus Runas. Ayudar a matar le otorgará a Fenrir 3 runas.</string>
+    <string name="descripcionHabilidad1_6">Fenrir salta hacia adelante e inflige daño a todos los enemigos cuando aterriza. Con Runas completas, el salto aturde a los enemigos golpeados. Si el salto golpea a un dios, el tiempo de reutilización se reduce en un 30%.</string>
+    <string name="descripcionHabilidad2_6">Fenrir retrocede y aúlla, inspirándose con un poder físico, velocidad de ataque y una mejora de robo de vida. Mientras Fenrir está inspirado, genera 2 runas.</string>
+    <string name="descripcionHabilidad3_6">Fenrir obtiene mayores protecciones y salta a la ubicación de su objetivo en tierra. Si había un enemigo en el radio, lo golpea 4 veces, causando daño con cada golpe y golpea a los enemigos alrededor del objetivo con el 60% del daño. Mientras lanza esta habilidad, Fenrir es inmune a los derribos. Con Runas completas, cada golpe gana un 15% de escala de poder físico adicional.</string>
+    <string name="descripcionHabilidad4_6">Tras Ragnarok, Fenrir crece enormemente y se vuelve inmune al control de multitudes mientras se mueve más rápido. Fenrir muerde a los dioses enemigos, les inflige daño físico y se los lleva. Morder a un objetivo inmune al control de masas inflige daño pero finaliza su habilidad definitiva. Con Runas completas, obtiene Protecciones.</string>
+
+    <string name="descripcionPasiva7">Los ataques normales con el bastón de Hades aplican una desventaja al enemigo, llamada Blight. Esta desventaja permanece en el objetivo y puede actualizarse. Si un enemigo se ve afectado por Blight, su poder físico y mágico se reduce. Además, cada uno de los demás poderes de Hades tiene un efecto adicional.</string>
+    <string name="descripcionHabilidad1_7">Hades desciende al suelo y entra en erupción desde abajo en su ubicación, causando daño a todos los enemigos en el área. Si el enemigo está arruinado, también queda ralentizado. Aplica Ruina.</string>
+    <string name="descripcionHabilidad2_7">Hades silencia a todos los enemigos en un cono frente a él. Si el enemigo está arruinado, también es temido. Aplica Ruina.</string>
+    <string name="descripcionHabilidad3_7">Hades devora las almas de sus enemigos, causando daño en un área a su alrededor. Los enemigos afectados por esta habilidad son detonados, lo que inflige daño a los enemigos y cura a tus aliados alrededor de los objetivos detonados. Los dioses enemigos solo reciben el 50% del daño de Detonating Blights.</string>
+    <string name="descripcionHabilidad4_7">Hades llama a todas las almas enemigas cercanas, creando un vórtice que arrastra a los objetivos hacia él e inflige daño cada 0,5 s durante 4 s. Por cada enemigo golpeado, Hades reduce los tiempos de reutilización de sus habilidades en 0,4 s. Si el enemigo está Infestado, sus Protecciones se reducen. Hades también obtiene protecciones y un 10% de mitigación de daños mientras dure.</string>
+
+    <string name="descripcionPasiva8">La velocidad de movimiento de Poseidón aumenta y sus habilidades causan daño adicional a medida que aumenta su nivel de marea. Los golpes exitosos de ataques básicos aumentan su marea y el uso de habilidades la disminuye.</string>
+    <string name="descripcionHabilidad1_8">Poseidón invoca una ola que viaja en línea, inflige daño y hace retroceder a todos los enemigos a su paso.</string>
+    <string name="descripcionHabilidad2_8">Poseidón activa su Tridente, otorgando Velocidad de Ataque y Velocidad de Movimiento adicionales y aumenta su daño de Ataque Básico en un 25% durante 6s. Mientras este efecto está activo, los ataques básicos de Poseidón también disparan dos disparos adicionales que aplican daño de habilidad y activan efectos de impacto de habilidad. Todos los disparos aumentan la Marea de Poseidón en caso de un golpe exitoso.</string>
+    <string name="descripcionHabilidad3_8">Poseidón invoca un remolino en la ubicación de su objetivo en el suelo que paraliza a los objetivos, previniendo sus habilidades de movimiento y creando un vórtice que arrastra a los objetivos hacia el centro e inflige daño cada 0,5 s durante 3 s.</string>
+    <string name="descripcionHabilidad4_8">Poseidón libera el Kraken, dañando y ralentizando a los objetivos en su radio. Los enemigos en el centro del efecto cuando se genera reciben daño adicional, quedan preñados y aturdidos.</string>
+
+    <string name="descripcionPasiva9" translatable="false">Cada vez que Ra usa una habilidad, su velocidad de movimiento aumenta.</string>
+    <string name="descripcionHabilidad1_9" translatable="false">Ra invoca un rayo de luz intensa en movimiento desde el cielo, causando daño a cualquiera que quede atrapado bajo el rayo.</string>
+    <string name="descripcionHabilidad2_9" translatable="false">La luz comienza a emanar de Ra, lo que acumula una ralentización cada 0,5 s en los enemigos cercanos a él y el doble de rápido en los enemigos que se encuentran frente a él. Después de 2 segundos, la luz detona, causa daño, aplica otra acumulación de ralentización y aumenta la duración de la ralentización. Cualquier enemigo que se enfrente a Ra en el momento de la explosión también quedará cegado. Además, Ra se limpia de ralentizaciones y se vuelve inmune a las ralentizaciones durante 0,6 segundos cuando se activa.</string>
+    <string name="descripcionHabilidad3_9" translatable="false">Ra invoca un pilar de luz bendita que persiste durante 6 s. Los aliados dentro de la bendición tienen mayores protecciones y poder y se curan cada segundo. Los enemigos sufren daños cada segundo.</string>
+    <string name="descripcionHabilidad4_9" translatable="false">Ra invoca el poder del sol para diezmar a sus enemigos en una explosión de calor extrema frente a él, causando daño a todos los enemigos que tienen la mala suerte de encontrarse en el camino. Los dioses enemigos reciben daño adicional según su salud máxima como daño verdadero.</string>
+
+    <string name="descripcionPasiva10">Kaldr tiene 2 formas: Bestia y Elemental. Mientras está en forma de Bestia, puede atacar a los enemigos y ser atacado. Mientras es Elemental, es inmune a los ataques y gana 1 HP cada 4 segundos. Puede ser controlado con Rune of the Hunt, pero volverá a su forma Elemental si pierde todos sus HP. Skadi también gana un 10% de poder físico cuando Kaldr no tiene HP.</string>
+    <string name="descripcionHabilidad1_10">Skadi lanza una lanza helada hacia adelante, que inflige daño a los enemigos y los ralentiza durante 3 s. Los ataques básicos de Kaldr causan el doble de daño a los objetivos afectados por Piercing Cold.</string>
+    <string name="descripcionHabilidad2_10">Alternar: Skadi marca un enemigo para que Kaldr lo cace. Mientras está activado, Kaldr asume la forma de Bestia, persiguiendo y atacando al enemigo marcado. Si un enemigo marcado muere, Kaldr ataca a otros enemigos cercanos. Cuando se desactiva, Kaldr deja de atacar y regresa a Skadi, volviendo a su forma Elemental en el camino. Esta habilidad se puede activar en el rango 0 y Kaldr adquiere nuevas habilidades a medida que sube de rango.</string>
+    <string name="descripcionHabilidad3_10">Skadi congela el suelo durante 5 segundos en una ubicación objetivo. El área helada causa daño a los enemigos que la tocan y continúa causando daño adicional cada 0,5 segundos que permanecen en ella. Los dioses que pisan el hielo se ralentizan y pierden el control de su movimiento mientras se deslizan. Además, Skadi gana velocidad de movimiento e inmunidad a la lentitud mientras está en el área y persiste durante 3 segundos después de que se desvanece o ella se va.</string>
+    <string name="descripcionHabilidad4_10">Una tormenta de nieve rodea a Skadi mientras ella elige un lugar para que Kaldr ataque. Si Kaldr está demasiado lejos, saltará allí. Al llegar al lugar, una tormenta de nieve también rodea a Kaldr. El golpe inicial de cualquiera de las tormentas de nieve daña y enraíza a los enemigos en el área y Kaldr recupera su salud completa. Las tormentas persisten durante 4 segundos e infligen daño a los enemigos cada 0,5 segundos.</string>
+
+
+    <string name="loreAgni">Agni, Dios del Fuego, encarna la dualidad destructiva y purificadora del fuego. Hermano de Indra y mensajero divino, Agni desempeña roles cruciales en el panteón. Adorado en hogares, proporciona luz, calor y purificación, pero también tiene un lado sombrío en el ciclo cósmico.</string>
+
+    <string name="loreAnubis">Anubis, con cabeza de chacal, realiza el juicio final de los muertos y preserva cadáveres. Su origen involucra engaño y destaca en la balanza de Ma`at. Nadie escapa al abismo del Inframundo sin ser probado por Anubis, el árbitro final.</string>
+
+    <string name="loreAres">Ares, dios griego de la guerra, es temido y vilipendiado. Su relación con Zeus, su hermana Atenea y su papel en la guerra son elementos destacados. Amado por los espartanos, Ares representa la violencia y el caos.</string>
+
+    <string name="loreAthena">Atenea, diosa de la sabiduría, encarna la justicia y la dignidad en la guerra. Enfrenta a su hermano Ares en la batalla de Troya y es adorada por aquellos que buscan luchar con honor.</string>
+
+    <string name="loreBachus">Baco, dios romano del vino, lleva un estilo de vida hedonista y difunde los "Misterios de la Vid". Su encuentro con el rey Midas y la bendición resultante, así como su conexión con Solinus, son partes clave de su historia.</string>
+
+    <string name="loreFenrir">Fenrir, el lobo, es atado por los dioses a pesar de profecías sobre su destrucción. Su liberación y búsqueda de venganza, marcando el inicio de Ragnorok, destacan su historia.</string>
+
+    <string name="loreHades">Hades, dios del inframundo, gobierna sobre los muertos. Su relación con Perséfone, la maldición de invierno y su papel en mantener el equilibrio entre vida y muerte son aspectos esenciales.</string>
+
+    <string name="lorePoseidon">Poseidón, dios de los mares, vive a la sombra de Zeus y busca adoradores. Su rivalidad con Atenea y la competencia por la ciudad de Atenas resaltan su historia.</string>
+
+    <string name="loreRa">Ra, dios egipcio del sol, representa el orden y la verdad. La conspiración de su nieta Eset para conocer su verdadero nombre y su ira en aumento son eventos cruciales en su relato.</string>
+
+    <string name="loreSkadi">Skadi, hija de los Jotun, busca venganza por la muerte de su padre y se casa con un dios. La historia destaca su elección de marido, su vida matrimonial y su conexión con los dioses olímpicos.</string>
+    <string name="habilidad_1">Habilidad 1</string>
+    <string name="habilidad_2">Habilidad 2</string>
+    <string name="habilidad_3">Habilidad 3</string>
+    <string name="habilidad_4">Habilidad 4</string>
+    <string name="pasiva">Pasiva</string>
+
+</resources>
