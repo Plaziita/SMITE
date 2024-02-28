@@ -40,6 +40,7 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
+import coil.compose.AsyncImage
 import com.example.smite.data.Dios
 
 @Composable
@@ -79,8 +80,8 @@ fun DiosDetras(dios: Dios, rotar: Float) {
             .graphicsLayer {
                 rotationY = rotar
             }) {
-        Image(
-            painter = painterResource(id = dios.avatar),
+        AsyncImage(
+            model = dios.avatar,
             contentDescription = null,
             contentScale = ContentScale.Crop,
             modifier = Modifier
@@ -142,7 +143,7 @@ fun NavigationBar(dios: Dios) {
             NavTab.LORE -> {
                 Spacer(modifier = Modifier.height(dimensionResource(id = R.dimen.espacio_medium)))
                 Text(
-                    text = stringResource(id = dios.lore),
+                    text = dios.lore,
                     color = Color.White,
                     textAlign = TextAlign.Justify,
                     modifier = Modifier.padding(dimensionResource(id = R.dimen.padding_small))
@@ -171,14 +172,15 @@ fun DiosAtributos(dios: Dios) {
             modifier = Modifier.weight(1f),
             horizontalAlignment = Alignment.CenterHorizontally
         ){
-            Image(
-                painter = painterResource(id = dios.tipo),
+            AsyncImage(
+                model = dios.tipo,
                 contentDescription = null,
+                contentScale = ContentScale.Crop,
                 modifier = Modifier
                     .size(dimensionResource(id = R.dimen.imagen_habilidad))
             )
             Text(
-                text = stringResource(id = dios.tipotxt),
+                text = dios.tipotxt,
                 color = Color.White,
             )
         }
@@ -186,14 +188,15 @@ fun DiosAtributos(dios: Dios) {
             modifier = Modifier.weight(1f),
             horizontalAlignment = Alignment.CenterHorizontally
         ){
-            Image(
-                painter = painterResource(id = dios.rol),
+            AsyncImage(
+                model = dios.rol,
                 contentDescription = null,
+                contentScale = ContentScale.Crop,
                 modifier = Modifier
                     .size(dimensionResource(id = R.dimen.imagen_habilidad))
             )
             Text(
-                text = stringResource(id = dios.roltxt),
+                text = dios.roltxt,
                 color = Color.White,
             )
         }
@@ -201,14 +204,15 @@ fun DiosAtributos(dios: Dios) {
             modifier = Modifier.weight(1f),
             horizontalAlignment = Alignment.CenterHorizontally
         ){
-            Image(
-                painter = painterResource(id = dios.ataque),
+            AsyncImage(
+                model = dios.ataque,
                 contentDescription = null,
+                contentScale = ContentScale.Crop,
                 modifier = Modifier
                     .size(dimensionResource(id = R.dimen.imagen_habilidad))
             )
             Text(
-                text = stringResource(id = dios.ataquetxt),
+                text = dios.ataquetxt,
                 color = Color.White,
             )
         }
@@ -216,14 +220,15 @@ fun DiosAtributos(dios: Dios) {
             modifier = Modifier.weight(1f),
             horizontalAlignment = Alignment.CenterHorizontally
         ){
-            Image(
-                painter = painterResource(id = dios.dmg),
+            AsyncImage(
+                model = dios.dmg,
                 contentDescription = null,
+                contentScale = ContentScale.Crop,
                 modifier = Modifier
                     .size(dimensionResource(id = R.dimen.imagen_habilidad))
             )
             Text(
-                text = stringResource(id = dios.dmgtxt),
+                text = dios.dmgtxt,
                 color = Color.White,
             )
         }
@@ -233,8 +238,8 @@ fun DiosAtributos(dios: Dios) {
 @Composable
 fun DiosDelante(dios : Dios){
     Box(modifier = Modifier.fillMaxSize()) {
-        Image(
-            painter = painterResource(id = dios.avatar),
+        AsyncImage(
+            model = dios.avatar,
             contentDescription = null,
             contentScale = ContentScale.Crop,
             modifier = Modifier
@@ -248,21 +253,21 @@ fun DiosDelante(dios : Dios){
         ) {
             Spacer(modifier = Modifier.height(18.dp))
             Text(
-                text = stringResource(dios.apodo),
+                text = dios.apodo,
                 color = Color.White,
                 style = MaterialTheme.typography.displayMedium,
 
                 )
             Spacer(modifier = Modifier.height(18.dp))
-            Image(
-                painter = painterResource(id = dios.avatar),
+            AsyncImage(
+                model = dios.avatar,
                 contentDescription = null,
                 modifier = Modifier
                     .size(450.dp)
             )
             Spacer(modifier = Modifier.height(12.dp))
             Text(
-                text = stringResource(dios.nombre),
+                text = dios.nombre,
                 color = Color.White,
                 style = MaterialTheme.typography.displayMedium,
             )
@@ -282,17 +287,17 @@ fun DiosHabilidades(dios: Dios) {
     ) {
         (1..5).forEach { index ->
             val isSelected = zoomedImage == index
-            val painter = painterResource(id = when (index) {
+            val painter = when (index) {
                 1 -> dios.habilidad1
                 2 -> dios.habilidad2
                 3 -> dios.habilidad3
                 4 -> dios.habilidad4
                 5 -> dios.pasiva
                 else -> 0
-            })
+            }
 
-            Image(
-                painter = painter,
+            AsyncImage(
+                model = painter,
                 contentDescription = null,
                 modifier = Modifier
                     .size(dimensionResource(id = R.dimen.imagen_habilidad))
@@ -309,21 +314,21 @@ fun DiosHabilidades(dios: Dios) {
     }
 
     if (zoomedImage != -1) {
-        val selectedDescription = when (zoomedImage) {
+        val selectedDescription : String = when (zoomedImage) {
             1 -> dios.descripcionHabilidad1
             2 -> dios.descripcionHabilidad2
             3 -> dios.descripcionHabilidad3
             4 -> dios.descripcionHabilidad4
             5 -> dios.descripcionPasiva
-            else -> 0
+            else -> ""
         }
 
         val selectedTitle = when (zoomedImage) {
-            1 -> stringResource(R.string.habilidad_1)
-            2 -> stringResource(R.string.habilidad_2)
-            3 -> stringResource(R.string.habilidad_3)
-            4 -> stringResource(R.string.habilidad_4)
-            5 -> stringResource(R.string.pasiva)
+            1 -> "Habilidad 1"
+            2 -> "Habilidad 2"
+            3 -> "Habilidad 3"
+            4 -> "Habilidad 4"
+            5 -> "Pasiva"
             else -> ""
         }
         Spacer(modifier = Modifier.height(8.dp))
@@ -337,14 +342,13 @@ fun DiosHabilidades(dios: Dios) {
             textAlign = TextAlign.Center
         )
         Text(
-            text = stringResource(selectedDescription),
+            text = selectedDescription,
             modifier = Modifier.padding(dimensionResource(id = R.dimen.padding_medium)),
             color = Color.White,
             textAlign = TextAlign.Justify
         )
     }
 }
-
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

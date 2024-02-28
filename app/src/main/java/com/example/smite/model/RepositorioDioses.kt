@@ -5,6 +5,7 @@ import com.example.smite.data.Dios
 
 object RepositorioDioses {
 
+    /*
     val dioses = listOf(
 
         //Agni
@@ -259,5 +260,5 @@ object RepositorioDioses {
         ),
 
     )
-
+*/
 }

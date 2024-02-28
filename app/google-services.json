@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "891058974316",
+    "project_id": "smite-2a50b",
+    "storage_bucket": "smite-2a50b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:891058974316:android:0c9e5bdcffb2f1dcd4f249",
+        "android_client_info": {
+          "package_name": "com.example.smite"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcwNi7u7FESIZVnHAxN8lfLg_0omVNbN8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -4,6 +4,7 @@ import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
 
 data class Dios(
+    /*
     @StringRes val nombre: Int,
     @StringRes val lore: Int,
     @DrawableRes val avatar: Int,
@@ -26,4 +27,30 @@ data class Dios(
     @StringRes val descripcionHabilidad3: Int,
     @DrawableRes val habilidad4: Int,
     @StringRes val descripcionHabilidad4: Int,
+     */
+    val nombre : String,
+    val lore : String,
+    val avatar : String,
+    val pasiva : String,
+    val rol : String,
+    val roltxt : String,
+    val tipo : String,
+    val tipotxt : String,
+    val ataque : String,
+    val ataquetxt : String,
+    val dmg : String,
+    val dmgtxt : String,
+    val apodo : String,
+    val descripcionPasiva : String,
+    val habilidad1 : String,
+    val descripcionHabilidad1 : String,
+    val habilidad2 : String,
+    val descripcionHabilidad2 : String,
+    val habilidad3 : String,
+    val descripcionHabilidad3 : String,
+    val habilidad4 : String,
+    val descripcionHabilidad4 : String,
+
+
+
     )

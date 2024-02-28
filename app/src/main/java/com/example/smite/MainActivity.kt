@@ -12,9 +12,14 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Surface
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.example.smite.model.RepositorioDioses.dioses
+import com.example.smite.data.Dios
+import com.example.smite.datasource.Datasource
 
 
 class MainActivity : ComponentActivity() {
@@ -37,18 +42,23 @@ class MainActivity : ComponentActivity() {
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun SmiteApp(){
+    var listaDioses by remember { mutableStateOf(listOf<Dios>()) }
+
     Scaffold(
         topBar = {
             SmiteTopBar()
         }
     ) { it ->
         LazyColumn(contentPadding = it) {
-            items(dioses) {
+            Datasource().getDioses { listaDioses = it }
+
+            items( listaDioses ) {
                 DiosItem(
                     dios = it,
                     modifier = Modifier
                 )
             }
+
         }
     }
 }
